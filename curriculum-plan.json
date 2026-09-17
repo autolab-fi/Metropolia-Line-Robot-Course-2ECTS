@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "course": "MetropoliaLineRobot2ECTS",
+  "workloadHours": 54,
+  "assessedTasks": 16,
+  "policy": {
+    "shortAnswerTests": false,
+    "simulationBeforeLab": true,
+    "earlyRobotExperienceTask": "test_drive"
+  },
+  "tasks": [
+    {
+      "str_id": "welcome",
+      "graded": false,
+      "targetMode": "simulation-only",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "sandbox",
+      "graded": false,
+      "targetMode": "simulation-optional",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "test_drive",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "ready",
+      "notes": "Run the same code in simulation first and then on the physical robot."
+    },
+    {
+      "str_id": "python_variables_commands",
+      "graded": true,
+      "targetMode": "simulation-only",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "sequential_navigation",
+      "graded": true,
+      "targetMode": "simulation-only",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "for_loops",
+      "graded": true,
+      "targetMode": "simulation-only",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "differential_drive",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "encoder_theory",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "simulation-calibration-required"
+    },
+    {
+      "str_id": "intro_to_octoliner",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "conditional_logic",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "arrays_and_elif",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "simple_line_follower",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "simulation-calibration-required"
+    },
+    {
+      "str_id": "telemetry",
+      "graded": true,
+      "targetMode": "simulation-only",
+      "implementation": "ready"
+    },
+    {
+      "str_id": "proportional_control",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "simulation-planned"
+    },
+    {
+      "str_id": "adaptive_speed",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "simulation-planned"
+    },
+    {
+      "str_id": "art_of_debugging",
+      "graded": true,
+      "targetMode": "simulation-only",
+      "implementation": "simulation-planned"
+    },
+    {
+      "str_id": "hardware_safety_net",
+      "graded": true,
+      "targetMode": "simulation-only",
+      "implementation": "simulation-planned"
+    },
+    {
+      "str_id": "adaptive_racing",
+      "graded": true,
+      "targetMode": "simulation-and-lab",
+      "implementation": "simulation-planned",
+      "notes": "Final physical-robot validation."
+    }
+  ]
+}

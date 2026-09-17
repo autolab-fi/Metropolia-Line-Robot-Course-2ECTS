@@ -1,0 +1,12 @@
+{
+  "fullCourseName": "Introduction to Mobile Robotics @ Metropolia, 2 ECTS",
+  "shortCourseName": "Mobile Robotics @ Metropolia",
+  "shortDescription": "Learn Python and mobile robotics in simulation and validate key behaviours on a real ESP32 line-following robot.",
+  "fullDescription": "A 2 ECTS introductory course in Python and mobile robotics. Students begin with both the browser simulator and a real robot, then develop motor, encoder, sensor, debugging, and line-following skills. Deterministic programming exercises run in simulation; selected milestones and the final adaptive line-following challenge are validated on physical hardware.",
+  "imageSmall": "https://github.com/autolab-fi/Metropolia-Line-Robot-Course-2ECTS/blob/main/images/course-info/Metropolia-640x360.png?raw=true",
+  "imageBig": "https://github.com/autolab-fi/Metropolia-Line-Robot-Course-2ECTS/blob/main/images/course-info/Metropolia-course-info.jpg?raw=true",
+  "workload": "2 ECTS (54 hours)",
+  "requirements": "No previous programming or robotics knowledge is required.",
+  "programmingLanguage": "python",
+  "simulationManifestUrl": "https://ondroid-simulator-dev.pages.dev/courses/metropolia-line/simulation-config.json"
+}
