@@ -136,6 +136,9 @@ same change.
   verifier, robot/infrastructure, cancelled, and unknown.
 - Store execution target (`simulation` or `robot`) and task/verifier version in
   attempt analytics so parity and learning outcomes can be compared later.
+- Replace the current authenticated browser-result trust model with an
+  authoritative server-side rerun or a signed simulator attestation before
+  using simulator-only completion for high-stakes assessment.
 - Re-run the complete parity matrix after changes to firmware, the robot API,
   world geometry, motor calibration, sensor modelling, task instructions, or
   verification code.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "course": "MetropoliaLineRobot2ECTS",
+  "course": "metropolia-line-robot-2ects",
   "world": "metropolia-line-arena-v1",
   "robot": "moon-rover-metropolia-v1",
   "exercise": "first-move-v1",

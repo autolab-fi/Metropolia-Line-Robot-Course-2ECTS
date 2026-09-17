@@ -36,6 +36,7 @@ stopping, and successful completion rather than exact final coordinates.
 
 - `course-info.json` — platform-facing course metadata.
 - `lessons-list.json` — the active 2 ECTS module and assignment list.
+  Each assignment declares its enforced `executionMode`.
 - `curriculum-plan.json` — intended execution environment and implementation
   status for each assignment.
 - `docs/TECHNICAL_DEBT.md` — content, screenshot, calibration, and
@@ -56,6 +57,7 @@ Simulator checks for proportional/adaptive control, debugging, safety, and the
 final challenge remain planned and are not exposed as implemented in the
 simulation manifest.
 
-`simulation-and-lab` currently makes both execution targets available. Enforcing
-"pass simulation before robot access" requires a platform-level prerequisite;
-until that is implemented, the lesson instructions define the required order.
+`simulation-and-lab` makes both execution targets available and requires a
+successful simulator attempt before physical-robot verification. Tasks whose
+simulator checks are still planned or need calibration remain `lab-only` in
+`lessons-list.json`; their intended future modes stay in `curriculum-plan.json`.

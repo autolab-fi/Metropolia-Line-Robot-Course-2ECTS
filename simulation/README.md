@@ -14,6 +14,11 @@ checks and physical verifiers can be reused.
 - `simulation-and-lab`: the student runs the code in simulation and on the
   physical robot.
 - `simulation-optional`: an ungraded practice workspace.
+- `lab-only`: physical-robot verification; these tasks are omitted from this
+  manifest until a simulator check is ready.
+
+The enforced mode is stored with the assignment in `../lessons-list.json`.
+Modes in this manifest must match it for every simulator-enabled task.
 
 `test_drive` is the first hybrid assignment. The student uses exactly the same
 program in both environments; no quiz or written response is required.
