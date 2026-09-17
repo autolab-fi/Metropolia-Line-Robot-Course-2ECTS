@@ -1458,7 +1458,7 @@ def intro_to_octoliner(robot, image, td, code):
 
     if td["data"]["code_valid"] and msg is not None:
         # Extract numbers from message (e.g., "Sensor 3: 450")
-        numbers = [int(num) for num in re.findall(r'\d+', msg)]
+        numbers = [int(num) for num in re.findall(r'\\d+', msg)]
         if numbers:
             # Store first number in empty sensor slot
             if td["data"]["sensor_3"] is None:
@@ -1606,7 +1606,7 @@ def processing_sensor_data(robot, image, td, user_code=None):
     # Parse incoming MQTT messages
     msg = robot.get_msg()
     if msg and "Found geological layers" in msg:
-        numbers = re.findall(r"\d+", msg)
+        numbers = re.findall(r"\\d+", msg)
 
         for num_str in numbers:
             try:
